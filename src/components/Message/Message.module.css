@@ -1,0 +1,44 @@
+.ui_message {
+    position: relative;
+    min-height: 1em;
+    margin: 1em 0;
+    background: #f8f8f9;
+    padding: 1em 1.5em;
+    line-height: 1.4285em;
+    color: rgba(0,0,0,.87);
+    -webkit-transition: opacity .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease,-webkit-box-shadow .1s ease;
+    border-radius: 0.28571429rem;
+    -webkit-box-shadow: 0 0 0 1px rgb(34 36 38 / 22%) inset, 0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px rgb(34 36 38 / 22%) inset, 0 0 0 0 transparent;
+}
+
+.ui_message:last-child {
+    margin-bottom: 0;
+}
+
+.ui_message:first-child {
+    margin-top: 0;
+}
+.ui_message {
+    font-size: 1em;
+}
+
+.header:not(.ui) {
+    font-size: 1.14285714em;
+}
+
+.header {
+    display: block;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    margin: -0.14285714em 0 0 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+p {
+    margin: 0 0 1em;
+    line-height: 1.4285em;
+}
