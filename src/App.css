@@ -1,0 +1,58 @@
+
+
+textarea {
+  resize: none;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+ul {
+  padding-left: 0; /* Сдвигаем список влево */
+}
+
+.container {
+  margin-left: 0;
+}
+
+#chat_list {
+  width: 250px !important;
+  margin-bottom: 15px;
+}
+.main-container {
+  margin-left: 10px;
+  display: flex !important;
+  margin-top: 10px !important;
+}
+.chat_list_items {
+  display: flex !important;
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+#new_chat_form {
+  display: flex !important;
+
+}
+#new_chat_btn {
+  max-height: 38px !important;
+  margin-left: 6px !important;
+}
+
+.chat_container {
+  margin: 10px;
+}
+
+.chat_form {
+  margin: 10px;
+}
+
+#send_message_btn{
+  margin-top: 5px;
+}
+
+.delete_message_btn {
+  border: none !important;
+  position: absolute;
+  right: 20px;
+}
