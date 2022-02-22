@@ -3,7 +3,7 @@ import { Message} from "../message";
 
 describe("Message tests", () => {
   it("renders author and text", () => {
-    const message = render(<Message message={{ text: "text", author: "volkov.denis.w@gmail.com" }} />);
+    const message = render(<Message message={{ text: "text", author: "author" }} />);
 
     const msgText = message.getByText("text");
     const authorText = message.getByText("author");
