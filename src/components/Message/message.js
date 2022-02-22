@@ -10,7 +10,7 @@ export const Message = ({message}) => {
   return (
       <div className={`${styles.container}`} key={message.id}>
           <img src={client} alt="Avatar"/>
-          <p>{message.author}: {message.text}</p>
+          <p><span>{message.author}</span>: <span>{message.text}</span></p>
           <span className={styles.timeRight}><Moment unix>{Date.now()}</Moment></span>
       </div>
   );

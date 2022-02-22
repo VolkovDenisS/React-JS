@@ -6,28 +6,58 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="App-message"
+        class="container"
       >
-        <span>
-          author
-        </span>
-         : 
-        <span>
-          messagetext
+        <img
+          alt="Avatar"
+          src="profile.png"
+        />
+        <p>
+          <span>
+            author
+          </span>
+          : 
+          <span>
+            text
+          </span>
+        </p>
+        <span
+          class="timeRight"
+        >
+          <time
+            datetime="1645545629828000"
+          >
+            Mon Apr 08 54115 03:17:08 GMT+0300
+          </time>
         </span>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="App-message"
+      class="container"
     >
-      <span>
-        author
-      </span>
-       : 
-      <span>
-        messagetext
+      <img
+        alt="Avatar"
+        src="profile.png"
+      />
+      <p>
+        <span>
+          author
+        </span>
+        : 
+        <span>
+          text
+        </span>
+      </p>
+      <span
+        class="timeRight"
+      >
+        <time
+          datetime="1645545629828000"
+        >
+          Mon Apr 08 54115 03:17:08 GMT+0300
+        </time>
       </span>
     </div>
   </div>,
@@ -91,24 +121,54 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="App-message"
+        class="container"
       >
-        <span />
-         : 
-        <span>
-          messagetext
+        <img
+          alt="Avatar"
+          src="profile.png"
+        />
+        <p>
+          <span />
+          : 
+          <span>
+            text
+          </span>
+        </p>
+        <span
+          class="timeRight"
+        >
+          <time
+            datetime="1645545639244000"
+          >
+            Mon Apr 08 54115 05:54:04 GMT+0300
+          </time>
         </span>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="App-message"
+      class="container"
     >
-      <span />
-       : 
-      <span>
-        messagetext
+      <img
+        alt="Avatar"
+        src="profile.png"
+      />
+      <p>
+        <span />
+        : 
+        <span>
+          text
+        </span>
+      </p>
+      <span
+        class="timeRight"
+      >
+        <time
+          datetime="1645545639244000"
+        >
+          Mon Apr 08 54115 05:54:04 GMT+0300
+        </time>
       </span>
     </div>
   </div>,
